@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>841</width>
+    <height>471</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SMBX NPC Editor</string>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>821</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="title">
+        <string>Graphics</string>
+       </property>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>241</width>
+          <height>361</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="customSpinner" name="gfxheight">
+           <property name="text">
+            <string>Height</string>
+           </property>
+           <property name="flat">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="customSpinner" name="gfxwidth">
+           <property name="text">
+            <string>Width</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="customSpinner" name="gfxoffsetx">
+           <property name="text">
+            <string>X Offset</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="customSpinner" name="gfxoffsety">
+           <property name="text">
+            <string>Y Offset</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="customSpinner" name="frames">
+           <property name="text">
+            <string>Frames</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="customSpinner" name="framespeed">
+           <property name="text">
+            <string>Framespeed</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="customSpinner" name="framestyle">
+           <property name="text">
+            <string>Framestyle</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="customCheckbox" name="foreground">
+           <property name="text">
+            <string>Foreground</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="title">
+        <string>Physics</string>
+       </property>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>241</width>
+          <height>361</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="customSpinner" name="height">
+           <property name="text">
+            <string>Height</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="customSpinner" name="width">
+           <property name="text">
+            <string>Width</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="customSpinner" name="playerblock">
+           <property name="text">
+            <string>Player Collision</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="customSpinner" name="playerblocktop">
+           <property name="text">
+            <string>Player Collision (Top)</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="customSpinner" name="npcblock">
+           <property name="text">
+            <string>NPC Collision</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="customSpinner" name="npcblocktop">
+           <property name="text">
+            <string>NPC Collision (Top)</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="customSpinner" name="noblockcollision">
+           <property name="text">
+            <string>No Block Collision</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="customCheckbox" name="cliffturn">
+           <property name="text">
+            <string>Turn on Cliff</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="customCheckbox" name="nogravity">
+           <property name="text">
+            <string>No Gravity</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_3">
+       <property name="title">
+        <string>Game</string>
+       </property>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>251</width>
+          <height>361</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="scoreComboBox" name="score">
+           <property name="text">
+            <string>Score</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="customCheckbox" name="grabside">
+           <property name="text">
+            <string>Grab Side</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="customCheckbox" name="grabtop">
+           <property name="text">
+            <string>Grab Top</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="customCheckbox" name="jumphurt">
+           <property name="text">
+            <string>Jump Hurt</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="customCheckbox" name="nohurt">
+           <property name="text">
+            <string>Don't Hurt</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="customCheckbox" name="noyoshi">
+           <property name="text">
+            <string>Can't be eaten</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="customSpinner" name="speed">
+           <property name="text">
+            <string>Speed</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="customCheckbox" name="nofireball">
+           <property name="text">
+            <string>No fireball</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="customCheckbox" name="noiceball">
+           <property name="text">
+            <string>Can't freeze</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>NPC Name: </string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="name">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>20</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>841</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpen"/>
+    <addaction name="actionNew"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionSave_As"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionChange_SMBX_Directory"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionNew">
+   <property name="text">
+    <string>New</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionSave_As">
+   <property name="text">
+    <string>Save As</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+S</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionChange_SMBX_Directory">
+   <property name="text">
+    <string>Change SMBX Directory</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>customSpinner</class>
+   <extends>QPushButton</extends>
+   <header location="global">customspinner.h</header>
+  </customwidget>
+  <customwidget>
+   <class>customCheckbox</class>
+   <extends>QPushButton</extends>
+   <header location="global">customcheckbox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>scoreComboBox</class>
+   <extends>QPushButton</extends>
+   <header location="global">scorecombobox.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
