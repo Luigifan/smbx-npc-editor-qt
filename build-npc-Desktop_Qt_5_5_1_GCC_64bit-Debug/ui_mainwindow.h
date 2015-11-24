@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 4.8.6
+** Created by: Qt User Interface Compiler version 5.5.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -87,83 +87,83 @@ public:
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
-            MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
+            MainWindow->setObjectName(QStringLiteral("MainWindow"));
         MainWindow->setWindowModality(Qt::ApplicationModal);
         MainWindow->resize(841, 471);
         MainWindow->setDocumentMode(false);
         MainWindow->setUnifiedTitleAndToolBarOnMac(false);
         actionOpen = new QAction(MainWindow);
-        actionOpen->setObjectName(QString::fromUtf8("actionOpen"));
+        actionOpen->setObjectName(QStringLiteral("actionOpen"));
         actionNew = new QAction(MainWindow);
-        actionNew->setObjectName(QString::fromUtf8("actionNew"));
+        actionNew->setObjectName(QStringLiteral("actionNew"));
         actionSave = new QAction(MainWindow);
-        actionSave->setObjectName(QString::fromUtf8("actionSave"));
+        actionSave->setObjectName(QStringLiteral("actionSave"));
         actionSave_As = new QAction(MainWindow);
-        actionSave_As->setObjectName(QString::fromUtf8("actionSave_As"));
+        actionSave_As->setObjectName(QStringLiteral("actionSave_As"));
         actionExit = new QAction(MainWindow);
-        actionExit->setObjectName(QString::fromUtf8("actionExit"));
+        actionExit->setObjectName(QStringLiteral("actionExit"));
         actionChange_SMBX_Directory = new QAction(MainWindow);
-        actionChange_SMBX_Directory->setObjectName(QString::fromUtf8("actionChange_SMBX_Directory"));
+        actionChange_SMBX_Directory->setObjectName(QStringLiteral("actionChange_SMBX_Directory"));
         actionAbout = new QAction(MainWindow);
-        actionAbout->setObjectName(QString::fromUtf8("actionAbout"));
+        actionAbout->setObjectName(QStringLiteral("actionAbout"));
         centralWidget = new QWidget(MainWindow);
-        centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
+        centralWidget->setObjectName(QStringLiteral("centralWidget"));
         layoutWidget = new QWidget(centralWidget);
-        layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
+        layoutWidget->setObjectName(QStringLiteral("layoutWidget"));
         layoutWidget->setGeometry(QRect(10, 50, 821, 391));
         horizontalLayout = new QHBoxLayout(layoutWidget);
         horizontalLayout->setSpacing(6);
         horizontalLayout->setContentsMargins(11, 11, 11, 11);
-        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
         groupBox = new QGroupBox(layoutWidget);
-        groupBox->setObjectName(QString::fromUtf8("groupBox"));
+        groupBox->setObjectName(QStringLiteral("groupBox"));
         layoutWidget1 = new QWidget(groupBox);
-        layoutWidget1->setObjectName(QString::fromUtf8("layoutWidget1"));
+        layoutWidget1->setObjectName(QStringLiteral("layoutWidget1"));
         layoutWidget1->setGeometry(QRect(10, 20, 241, 361));
         verticalLayout = new QVBoxLayout(layoutWidget1);
         verticalLayout->setSpacing(6);
         verticalLayout->setContentsMargins(11, 11, 11, 11);
-        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
+        verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
         verticalLayout->setContentsMargins(0, 0, 0, 0);
         gfxheight = new customSpinner(layoutWidget1);
-        gfxheight->setObjectName(QString::fromUtf8("gfxheight"));
+        gfxheight->setObjectName(QStringLiteral("gfxheight"));
         gfxheight->setFlat(false);
 
         verticalLayout->addWidget(gfxheight);
 
         gfxwidth = new customSpinner(layoutWidget1);
-        gfxwidth->setObjectName(QString::fromUtf8("gfxwidth"));
+        gfxwidth->setObjectName(QStringLiteral("gfxwidth"));
 
         verticalLayout->addWidget(gfxwidth);
 
         gfxoffsetx = new customSpinner(layoutWidget1);
-        gfxoffsetx->setObjectName(QString::fromUtf8("gfxoffsetx"));
+        gfxoffsetx->setObjectName(QStringLiteral("gfxoffsetx"));
 
         verticalLayout->addWidget(gfxoffsetx);
 
         gfxoffsety = new customSpinner(layoutWidget1);
-        gfxoffsety->setObjectName(QString::fromUtf8("gfxoffsety"));
+        gfxoffsety->setObjectName(QStringLiteral("gfxoffsety"));
 
         verticalLayout->addWidget(gfxoffsety);
 
         frames = new customSpinner(layoutWidget1);
-        frames->setObjectName(QString::fromUtf8("frames"));
+        frames->setObjectName(QStringLiteral("frames"));
 
         verticalLayout->addWidget(frames);
 
         framespeed = new customSpinner(layoutWidget1);
-        framespeed->setObjectName(QString::fromUtf8("framespeed"));
+        framespeed->setObjectName(QStringLiteral("framespeed"));
 
         verticalLayout->addWidget(framespeed);
 
         framestyle = new customSpinner(layoutWidget1);
-        framestyle->setObjectName(QString::fromUtf8("framestyle"));
+        framestyle->setObjectName(QStringLiteral("framestyle"));
 
         verticalLayout->addWidget(framestyle);
 
         foreground = new customCheckbox(layoutWidget1);
-        foreground->setObjectName(QString::fromUtf8("foreground"));
+        foreground->setObjectName(QStringLiteral("foreground"));
 
         verticalLayout->addWidget(foreground);
 
@@ -171,57 +171,57 @@ public:
         horizontalLayout->addWidget(groupBox);
 
         groupBox_2 = new QGroupBox(layoutWidget);
-        groupBox_2->setObjectName(QString::fromUtf8("groupBox_2"));
+        groupBox_2->setObjectName(QStringLiteral("groupBox_2"));
         layoutWidget2 = new QWidget(groupBox_2);
-        layoutWidget2->setObjectName(QString::fromUtf8("layoutWidget2"));
+        layoutWidget2->setObjectName(QStringLiteral("layoutWidget2"));
         layoutWidget2->setGeometry(QRect(10, 20, 241, 361));
         verticalLayout_2 = new QVBoxLayout(layoutWidget2);
         verticalLayout_2->setSpacing(6);
         verticalLayout_2->setContentsMargins(11, 11, 11, 11);
-        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
+        verticalLayout_2->setObjectName(QStringLiteral("verticalLayout_2"));
         verticalLayout_2->setContentsMargins(0, 0, 0, 0);
         height = new customSpinner(layoutWidget2);
-        height->setObjectName(QString::fromUtf8("height"));
+        height->setObjectName(QStringLiteral("height"));
 
         verticalLayout_2->addWidget(height);
 
         width = new customSpinner(layoutWidget2);
-        width->setObjectName(QString::fromUtf8("width"));
+        width->setObjectName(QStringLiteral("width"));
 
         verticalLayout_2->addWidget(width);
 
         playerblock = new customSpinner(layoutWidget2);
-        playerblock->setObjectName(QString::fromUtf8("playerblock"));
+        playerblock->setObjectName(QStringLiteral("playerblock"));
 
         verticalLayout_2->addWidget(playerblock);
 
         playerblocktop = new customSpinner(layoutWidget2);
-        playerblocktop->setObjectName(QString::fromUtf8("playerblocktop"));
+        playerblocktop->setObjectName(QStringLiteral("playerblocktop"));
 
         verticalLayout_2->addWidget(playerblocktop);
 
         npcblock = new customSpinner(layoutWidget2);
-        npcblock->setObjectName(QString::fromUtf8("npcblock"));
+        npcblock->setObjectName(QStringLiteral("npcblock"));
 
         verticalLayout_2->addWidget(npcblock);
 
         npcblocktop = new customSpinner(layoutWidget2);
-        npcblocktop->setObjectName(QString::fromUtf8("npcblocktop"));
+        npcblocktop->setObjectName(QStringLiteral("npcblocktop"));
 
         verticalLayout_2->addWidget(npcblocktop);
 
         noblockcollision = new customSpinner(layoutWidget2);
-        noblockcollision->setObjectName(QString::fromUtf8("noblockcollision"));
+        noblockcollision->setObjectName(QStringLiteral("noblockcollision"));
 
         verticalLayout_2->addWidget(noblockcollision);
 
         cliffturn = new customCheckbox(layoutWidget2);
-        cliffturn->setObjectName(QString::fromUtf8("cliffturn"));
+        cliffturn->setObjectName(QStringLiteral("cliffturn"));
 
         verticalLayout_2->addWidget(cliffturn);
 
         nogravity = new customCheckbox(layoutWidget2);
-        nogravity->setObjectName(QString::fromUtf8("nogravity"));
+        nogravity->setObjectName(QStringLiteral("nogravity"));
 
         verticalLayout_2->addWidget(nogravity);
 
@@ -229,57 +229,57 @@ public:
         horizontalLayout->addWidget(groupBox_2);
 
         groupBox_3 = new QGroupBox(layoutWidget);
-        groupBox_3->setObjectName(QString::fromUtf8("groupBox_3"));
+        groupBox_3->setObjectName(QStringLiteral("groupBox_3"));
         layoutWidget3 = new QWidget(groupBox_3);
-        layoutWidget3->setObjectName(QString::fromUtf8("layoutWidget3"));
+        layoutWidget3->setObjectName(QStringLiteral("layoutWidget3"));
         layoutWidget3->setGeometry(QRect(10, 20, 251, 361));
         verticalLayout_3 = new QVBoxLayout(layoutWidget3);
         verticalLayout_3->setSpacing(6);
         verticalLayout_3->setContentsMargins(11, 11, 11, 11);
-        verticalLayout_3->setObjectName(QString::fromUtf8("verticalLayout_3"));
+        verticalLayout_3->setObjectName(QStringLiteral("verticalLayout_3"));
         verticalLayout_3->setContentsMargins(0, 0, 0, 0);
         score = new scoreComboBox(layoutWidget3);
-        score->setObjectName(QString::fromUtf8("score"));
+        score->setObjectName(QStringLiteral("score"));
 
         verticalLayout_3->addWidget(score);
 
         grabside = new customCheckbox(layoutWidget3);
-        grabside->setObjectName(QString::fromUtf8("grabside"));
+        grabside->setObjectName(QStringLiteral("grabside"));
 
         verticalLayout_3->addWidget(grabside);
 
         grabtop = new customCheckbox(layoutWidget3);
-        grabtop->setObjectName(QString::fromUtf8("grabtop"));
+        grabtop->setObjectName(QStringLiteral("grabtop"));
 
         verticalLayout_3->addWidget(grabtop);
 
         jumphurt = new customCheckbox(layoutWidget3);
-        jumphurt->setObjectName(QString::fromUtf8("jumphurt"));
+        jumphurt->setObjectName(QStringLiteral("jumphurt"));
 
         verticalLayout_3->addWidget(jumphurt);
 
         nohurt = new customCheckbox(layoutWidget3);
-        nohurt->setObjectName(QString::fromUtf8("nohurt"));
+        nohurt->setObjectName(QStringLiteral("nohurt"));
 
         verticalLayout_3->addWidget(nohurt);
 
         noyoshi = new customCheckbox(layoutWidget3);
-        noyoshi->setObjectName(QString::fromUtf8("noyoshi"));
+        noyoshi->setObjectName(QStringLiteral("noyoshi"));
 
         verticalLayout_3->addWidget(noyoshi);
 
         speed = new customSpinner(layoutWidget3);
-        speed->setObjectName(QString::fromUtf8("speed"));
+        speed->setObjectName(QStringLiteral("speed"));
 
         verticalLayout_3->addWidget(speed);
 
         nofireball = new customCheckbox(layoutWidget3);
-        nofireball->setObjectName(QString::fromUtf8("nofireball"));
+        nofireball->setObjectName(QStringLiteral("nofireball"));
 
         verticalLayout_3->addWidget(nofireball);
 
         noiceball = new customCheckbox(layoutWidget3);
-        noiceball->setObjectName(QString::fromUtf8("noiceball"));
+        noiceball->setObjectName(QStringLiteral("noiceball"));
 
         verticalLayout_3->addWidget(noiceball);
 
@@ -287,21 +287,21 @@ public:
         horizontalLayout->addWidget(groupBox_3);
 
         label = new QLabel(centralWidget);
-        label->setObjectName(QString::fromUtf8("label"));
+        label->setObjectName(QStringLiteral("label"));
         label->setGeometry(QRect(30, 20, 81, 16));
         name = new QLineEdit(centralWidget);
-        name->setObjectName(QString::fromUtf8("name"));
+        name->setObjectName(QStringLiteral("name"));
         name->setGeometry(QRect(110, 20, 151, 21));
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
-        menuBar->setObjectName(QString::fromUtf8("menuBar"));
+        menuBar->setObjectName(QStringLiteral("menuBar"));
         menuBar->setGeometry(QRect(0, 0, 841, 22));
         menuFile = new QMenu(menuBar);
-        menuFile->setObjectName(QString::fromUtf8("menuFile"));
+        menuFile->setObjectName(QStringLiteral("menuFile"));
         menuEdit = new QMenu(menuBar);
-        menuEdit->setObjectName(QString::fromUtf8("menuEdit"));
+        menuEdit->setObjectName(QStringLiteral("menuEdit"));
         menuHelp = new QMenu(menuBar);
-        menuHelp->setObjectName(QString::fromUtf8("menuHelp"));
+        menuHelp->setObjectName(QStringLiteral("menuHelp"));
         MainWindow->setMenuBar(menuBar);
 
         menuBar->addAction(menuFile->menuAction());
@@ -342,32 +342,32 @@ public:
         gfxoffsety->setText(QApplication::translate("MainWindow", "Y Offset", 0));
         frames->setText(QApplication::translate("MainWindow", "Frames", 0));
         framespeed->setText(QApplication::translate("MainWindow", "Framespeed", 0));
-        framestyle->setText(QApplication::translate("MainWindow", "Framestyle", 0 ));
-        foreground->setText(QApplication::translate("MainWindow", "Foreground", 0 ));
-        groupBox_2->setTitle(QApplication::translate("MainWindow", "Physics", 0 ));
-        height->setText(QApplication::translate("MainWindow", "Height", 0 ));
-        width->setText(QApplication::translate("MainWindow", "Width", 0 ));
-        playerblock->setText(QApplication::translate("MainWindow", "Player Collision", 0 ));
-        playerblocktop->setText(QApplication::translate("MainWindow", "Player Collision (Top)", 0 ));
-        npcblock->setText(QApplication::translate("MainWindow", "NPC Collision", 0 ));
-        npcblocktop->setText(QApplication::translate("MainWindow", "NPC Collision (Top)", 0 ));
-        noblockcollision->setText(QApplication::translate("MainWindow", "No Block Collision", 0 ));
-        cliffturn->setText(QApplication::translate("MainWindow", "Turn on Cliff", 0 ));
-        nogravity->setText(QApplication::translate("MainWindow", "No Gravity", 0 ));
-        groupBox_3->setTitle(QApplication::translate("MainWindow", "Game", 0 ));
-        score->setText(QApplication::translate("MainWindow", "Score", 0 ));
-        grabside->setText(QApplication::translate("MainWindow", "Grab Side", 0 ));
-        grabtop->setText(QApplication::translate("MainWindow", "Grab Top", 0 ));
-        jumphurt->setText(QApplication::translate("MainWindow", "Jump Hurt", 0 ));
-        nohurt->setText(QApplication::translate("MainWindow", "Don't Hurt", 0 ));
-        noyoshi->setText(QApplication::translate("MainWindow", "Can't be eaten", 0 ));
-        speed->setText(QApplication::translate("MainWindow", "Speed", 0 ));
-        nofireball->setText(QApplication::translate("MainWindow", "No fireball", 0 ));
-        noiceball->setText(QApplication::translate("MainWindow", "Can't freeze", 0 ));
-        label->setText(QApplication::translate("MainWindow", "NPC Name: ", 0 ));
-        menuFile->setTitle(QApplication::translate("MainWindow", "File", 0 ));
-        menuEdit->setTitle(QApplication::translate("MainWindow", "Edit", 0 ));
-        menuHelp->setTitle(QApplication::translate("MainWindow", "Help", 0 ));
+        framestyle->setText(QApplication::translate("MainWindow", "Framestyle", 0));
+        foreground->setText(QApplication::translate("MainWindow", "Foreground", 0));
+        groupBox_2->setTitle(QApplication::translate("MainWindow", "Physics", 0));
+        height->setText(QApplication::translate("MainWindow", "Height", 0));
+        width->setText(QApplication::translate("MainWindow", "Width", 0));
+        playerblock->setText(QApplication::translate("MainWindow", "Player Collision", 0));
+        playerblocktop->setText(QApplication::translate("MainWindow", "Player Collision (Top)", 0));
+        npcblock->setText(QApplication::translate("MainWindow", "NPC Collision", 0));
+        npcblocktop->setText(QApplication::translate("MainWindow", "NPC Collision (Top)", 0));
+        noblockcollision->setText(QApplication::translate("MainWindow", "No Block Collision", 0));
+        cliffturn->setText(QApplication::translate("MainWindow", "Turn on Cliff", 0));
+        nogravity->setText(QApplication::translate("MainWindow", "No Gravity", 0));
+        groupBox_3->setTitle(QApplication::translate("MainWindow", "Game", 0));
+        score->setText(QApplication::translate("MainWindow", "Score", 0));
+        grabside->setText(QApplication::translate("MainWindow", "Grab Side", 0));
+        grabtop->setText(QApplication::translate("MainWindow", "Grab Top", 0));
+        jumphurt->setText(QApplication::translate("MainWindow", "Jump Hurt", 0));
+        nohurt->setText(QApplication::translate("MainWindow", "Don't Hurt", 0));
+        noyoshi->setText(QApplication::translate("MainWindow", "Can't be eaten", 0));
+        speed->setText(QApplication::translate("MainWindow", "Speed", 0));
+        nofireball->setText(QApplication::translate("MainWindow", "No fireball", 0));
+        noiceball->setText(QApplication::translate("MainWindow", "Can't freeze", 0));
+        label->setText(QApplication::translate("MainWindow", "NPC Name: ", 0));
+        menuFile->setTitle(QApplication::translate("MainWindow", "File", 0));
+        menuEdit->setTitle(QApplication::translate("MainWindow", "Edit", 0));
+        menuHelp->setTitle(QApplication::translate("MainWindow", "Help", 0));
     } // retranslateUi
 
 };

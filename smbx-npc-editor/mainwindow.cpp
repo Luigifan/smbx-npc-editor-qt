@@ -55,8 +55,11 @@ void MainWindow::on_actionOpen_triggered()
         if(f.selectedFiles()[0] != NULL)
             fileName = f.selectedFiles()[0];
 #else
+    //"NPC Text Files (npc-*.txt);;Text Files (*.txt)"
     QFileDialog f;
-    f.setFilter("NPC Text Files (npc-*.txt);;Text Files (*.txt)");
+    QDir d("");
+    d.setNameFilters(QStringList() << "*.txt" << "npc-*.txt");
+    f.setFilter(d.filter());
     f.exec();
     if(f.selectedFiles()[0] != NULL)
     {

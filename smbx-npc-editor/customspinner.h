@@ -2,7 +2,7 @@
 #define CUSTOMSPINNER_H
 
 #include <QWidget>
-#include <QtDesigner/customwidget.h>
+#include <QtUiPlugin/customwidget.h>
 
 namespace Ui {
 class customSpinner;

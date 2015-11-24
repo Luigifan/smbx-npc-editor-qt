@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'customcheckbox.ui'
 **
-** Created by: Qt User Interface Compiler version 4.8.6
+** Created by: Qt User Interface Compiler version 5.5.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -30,16 +30,16 @@ public:
     void setupUi(QWidget *customCheckbox)
     {
         if (customCheckbox->objectName().isEmpty())
-            customCheckbox->setObjectName(QString::fromUtf8("customCheckbox"));
+            customCheckbox->setObjectName(QStringLiteral("customCheckbox"));
         customCheckbox->resize(260, 38);
         label = new QLabel(customCheckbox);
-        label->setObjectName(QString::fromUtf8("label"));
+        label->setObjectName(QStringLiteral("label"));
         label->setGeometry(QRect(10, 10, 111, 20));
         valueCheckBox = new QCheckBox(customCheckbox);
-        valueCheckBox->setObjectName(QString::fromUtf8("valueCheckBox"));
+        valueCheckBox->setObjectName(QStringLiteral("valueCheckBox"));
         valueCheckBox->setGeometry(QRect(160, 10, 21, 20));
         enCheckBox = new QCheckBox(customCheckbox);
-        enCheckBox->setObjectName(QString::fromUtf8("enCheckBox"));
+        enCheckBox->setObjectName(QStringLiteral("enCheckBox"));
         enCheckBox->setGeometry(QRect(220, 10, 21, 20));
 
         retranslateUi(customCheckbox);
@@ -49,8 +49,8 @@ public:
 
     void retranslateUi(QWidget *customCheckbox)
     {
-        customCheckbox->setWindowTitle(QApplication::translate("customCheckbox", "Form", 0 ));
-        label->setText(QApplication::translate("customCheckbox", "TextLabel", 0 ));
+        customCheckbox->setWindowTitle(QApplication::translate("customCheckbox", "Form", 0));
+        label->setText(QApplication::translate("customCheckbox", "TextLabel", 0));
         valueCheckBox->setText(QString());
         enCheckBox->setText(QString());
     } // retranslateUi
