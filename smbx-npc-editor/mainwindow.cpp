@@ -94,10 +94,23 @@ void MainWindow::loadNPCIntoValues()
                 customSpinner *castrated = (customSpinner*)list[0];
                 castrated->setValue(i.value().toInt());
             }
+            else if(className == QString("QLineEdit"))
+            {
+                QLineEdit *castrated = (QLineEdit*)list[0];
+                castrated->setText(i.value());
+            }
         }
         i++;
     }
 }
 
+void MainWindow::saveNPCValues()
+{
+    QList<QWidget*> list = findChildren<QWidget*>("(?s).*");
+    std::cout << list.count() << std::endl;
+}
 
-
+void MainWindow::on_actionSave_triggered()
+{
+    saveNPCValues();
+}

@@ -777,7 +777,6 @@ moc_customspinner.cpp: /opt/Qt/5.5/gcc_64/include/QtWidgets/QWidget \
 		/opt/Qt/5.5/gcc_64/include/QtCore/qfiledevice.h \
 		/opt/Qt/5.5/gcc_64/include/QtGui/qvector2d.h \
 		/opt/Qt/5.5/gcc_64/include/QtGui/qtouchdevice.h \
-		/opt/Qt/5.5/gcc_64/include/QtDesigner/customwidget.h \
 		/opt/Qt/5.5/gcc_64/include/QtUiPlugin/customwidget.h \
 		/opt/Qt/5.5/gcc_64/include/QtCore/QObject \
 		/opt/Qt/5.5/gcc_64/include/QtCore/QString \
@@ -1107,7 +1106,6 @@ ui_mainwindow.h: ../smbx-npc-editor/mainwindow.ui \
 		/opt/Qt/5.5/gcc_64/include/QtCore/qfiledevice.h \
 		/opt/Qt/5.5/gcc_64/include/QtGui/qvector2d.h \
 		/opt/Qt/5.5/gcc_64/include/QtGui/qtouchdevice.h \
-		/opt/Qt/5.5/gcc_64/include/QtDesigner/customwidget.h \
 		/opt/Qt/5.5/gcc_64/include/QtUiPlugin/customwidget.h \
 		/opt/Qt/5.5/gcc_64/include/QtCore/QObject \
 		/opt/Qt/5.5/gcc_64/include/QtCore/QString \
@@ -1570,10 +1568,58 @@ mainwindow.o: ../smbx-npc-editor/mainwindow.cpp ../smbx-npc-editor/mainwindow.h 
 		/opt/Qt/5.5/gcc_64/include/QtCore/QFile \
 		../smbx-npc-editor/ui_mainwindow.h \
 		/opt/Qt/5.5/gcc_64/include/QtCore/QVariant \
-		../smbx-npc-editor/customcheckbox.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QAction \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qaction.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qactiongroup.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QApplication \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qapplication.h \
+		/opt/Qt/5.5/gcc_64/include/QtCore/qcoreapplication.h \
+		/opt/Qt/5.5/gcc_64/include/QtCore/qeventloop.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qdesktopwidget.h \
+		/opt/Qt/5.5/gcc_64/include/QtGui/qguiapplication.h \
+		/opt/Qt/5.5/gcc_64/include/QtGui/qinputmethod.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QButtonGroup \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qbuttongroup.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QGroupBox \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qgroupbox.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qframe.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QHBoxLayout \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qboxlayout.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qlayout.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qlayoutitem.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qgridlayout.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QHeaderView \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qheaderview.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qabstractitemview.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qabstractscrollarea.h \
+		/opt/Qt/5.5/gcc_64/include/QtCore/qabstractitemmodel.h \
+		/opt/Qt/5.5/gcc_64/include/QtCore/qitemselectionmodel.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qstyleoption.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qabstractspinbox.h \
+		/opt/Qt/5.5/gcc_64/include/QtGui/qvalidator.h \
+		/opt/Qt/5.5/gcc_64/include/QtCore/qregularexpression.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qslider.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qabstractslider.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qstyle.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qtabbar.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qrubberband.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QLabel \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qlabel.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QLineEdit \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qlineedit.h \
+		/opt/Qt/5.5/gcc_64/include/QtGui/qtextcursor.h \
+		/opt/Qt/5.5/gcc_64/include/QtGui/qtextformat.h \
+		/opt/Qt/5.5/gcc_64/include/QtGui/qpen.h \
+		/opt/Qt/5.5/gcc_64/include/QtGui/qtextoption.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QMenu \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qmenu.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QMenuBar \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qmenubar.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QVBoxLayout \
 		/opt/Qt/5.5/gcc_64/include/QtWidgets/QWidget \
+		../smbx-npc-editor/customcheckbox.h \
 		../smbx-npc-editor/customspinner.h \
-		/opt/Qt/5.5/gcc_64/include/QtDesigner/customwidget.h \
 		/opt/Qt/5.5/gcc_64/include/QtUiPlugin/customwidget.h \
 		/opt/Qt/5.5/gcc_64/include/QtCore/QObject \
 		/opt/Qt/5.5/gcc_64/include/QtGui/QIcon \
@@ -1690,7 +1736,6 @@ customspinner.o: ../smbx-npc-editor/customspinner.cpp ../smbx-npc-editor/customs
 		/opt/Qt/5.5/gcc_64/include/QtCore/qfiledevice.h \
 		/opt/Qt/5.5/gcc_64/include/QtGui/qvector2d.h \
 		/opt/Qt/5.5/gcc_64/include/QtGui/qtouchdevice.h \
-		/opt/Qt/5.5/gcc_64/include/QtDesigner/customwidget.h \
 		/opt/Qt/5.5/gcc_64/include/QtUiPlugin/customwidget.h \
 		/opt/Qt/5.5/gcc_64/include/QtCore/QObject \
 		/opt/Qt/5.5/gcc_64/include/QtCore/QString \
@@ -1698,6 +1743,43 @@ customspinner.o: ../smbx-npc-editor/customspinner.cpp ../smbx-npc-editor/customs
 		/opt/Qt/5.5/gcc_64/include/QtGui/qicon.h \
 		../smbx-npc-editor/ui_customspinner.h \
 		/opt/Qt/5.5/gcc_64/include/QtCore/QVariant \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QAction \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qaction.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qactiongroup.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QApplication \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qapplication.h \
+		/opt/Qt/5.5/gcc_64/include/QtCore/qcoreapplication.h \
+		/opt/Qt/5.5/gcc_64/include/QtCore/qeventloop.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qdesktopwidget.h \
+		/opt/Qt/5.5/gcc_64/include/QtGui/qguiapplication.h \
+		/opt/Qt/5.5/gcc_64/include/QtGui/qinputmethod.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QButtonGroup \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qbuttongroup.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QCheckBox \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qcheckbox.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qabstractbutton.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QHeaderView \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qheaderview.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qabstractitemview.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qabstractscrollarea.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qframe.h \
+		/opt/Qt/5.5/gcc_64/include/QtCore/qabstractitemmodel.h \
+		/opt/Qt/5.5/gcc_64/include/QtCore/qitemselectionmodel.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qstyleoption.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qabstractspinbox.h \
+		/opt/Qt/5.5/gcc_64/include/QtGui/qvalidator.h \
+		/opt/Qt/5.5/gcc_64/include/QtCore/qregularexpression.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qslider.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qabstractslider.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qstyle.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qtabbar.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qtabwidget.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qrubberband.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QLabel \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qlabel.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QSpinBox \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qspinbox.h \
 		/opt/Qt/5.5/gcc_64/include/QtCore/Qt
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o customspinner.o ../smbx-npc-editor/customspinner.cpp
 
@@ -1916,7 +1998,43 @@ customcheckbox.o: ../smbx-npc-editor/customcheckbox.cpp ../smbx-npc-editor/custo
 		/opt/Qt/5.5/gcc_64/include/QtGui/qvector2d.h \
 		/opt/Qt/5.5/gcc_64/include/QtGui/qtouchdevice.h \
 		../smbx-npc-editor/ui_customcheckbox.h \
-		/opt/Qt/5.5/gcc_64/include/QtCore/QVariant
+		/opt/Qt/5.5/gcc_64/include/QtCore/QVariant \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QAction \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qaction.h \
+		/opt/Qt/5.5/gcc_64/include/QtGui/qicon.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qactiongroup.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QApplication \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qapplication.h \
+		/opt/Qt/5.5/gcc_64/include/QtCore/qcoreapplication.h \
+		/opt/Qt/5.5/gcc_64/include/QtCore/qeventloop.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qdesktopwidget.h \
+		/opt/Qt/5.5/gcc_64/include/QtGui/qguiapplication.h \
+		/opt/Qt/5.5/gcc_64/include/QtGui/qinputmethod.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QButtonGroup \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qbuttongroup.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QCheckBox \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qcheckbox.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qabstractbutton.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QHeaderView \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qheaderview.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qabstractitemview.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qabstractscrollarea.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qframe.h \
+		/opt/Qt/5.5/gcc_64/include/QtCore/qabstractitemmodel.h \
+		/opt/Qt/5.5/gcc_64/include/QtCore/qitemselectionmodel.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qstyleoption.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qabstractspinbox.h \
+		/opt/Qt/5.5/gcc_64/include/QtGui/qvalidator.h \
+		/opt/Qt/5.5/gcc_64/include/QtCore/qregularexpression.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qslider.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qabstractslider.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qstyle.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qtabbar.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qtabwidget.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qrubberband.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QLabel \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qlabel.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o customcheckbox.o ../smbx-npc-editor/customcheckbox.cpp
 
 scorecombobox.o: ../smbx-npc-editor/scorecombobox.cpp ../smbx-npc-editor/scorecombobox.h \
@@ -2023,7 +2141,45 @@ scorecombobox.o: ../smbx-npc-editor/scorecombobox.cpp ../smbx-npc-editor/scoreco
 		/opt/Qt/5.5/gcc_64/include/QtGui/qvector2d.h \
 		/opt/Qt/5.5/gcc_64/include/QtGui/qtouchdevice.h \
 		../smbx-npc-editor/ui_scorecombobox.h \
-		/opt/Qt/5.5/gcc_64/include/QtCore/QVariant
+		/opt/Qt/5.5/gcc_64/include/QtCore/QVariant \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QAction \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qaction.h \
+		/opt/Qt/5.5/gcc_64/include/QtGui/qicon.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qactiongroup.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QApplication \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qapplication.h \
+		/opt/Qt/5.5/gcc_64/include/QtCore/qcoreapplication.h \
+		/opt/Qt/5.5/gcc_64/include/QtCore/qeventloop.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qdesktopwidget.h \
+		/opt/Qt/5.5/gcc_64/include/QtGui/qguiapplication.h \
+		/opt/Qt/5.5/gcc_64/include/QtGui/qinputmethod.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QButtonGroup \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qbuttongroup.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QCheckBox \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qcheckbox.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qabstractbutton.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QComboBox \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qcombobox.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qstyleoption.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qabstractspinbox.h \
+		/opt/Qt/5.5/gcc_64/include/QtGui/qvalidator.h \
+		/opt/Qt/5.5/gcc_64/include/QtCore/qregularexpression.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qslider.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qabstractslider.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qstyle.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qtabbar.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qtabwidget.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qrubberband.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qframe.h \
+		/opt/Qt/5.5/gcc_64/include/QtCore/qabstractitemmodel.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QHeaderView \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qheaderview.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qabstractitemview.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qabstractscrollarea.h \
+		/opt/Qt/5.5/gcc_64/include/QtCore/qitemselectionmodel.h \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/QLabel \
+		/opt/Qt/5.5/gcc_64/include/QtWidgets/qlabel.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o scorecombobox.o ../smbx-npc-editor/scorecombobox.cpp
 
 moc_mainwindow.o: moc_mainwindow.cpp 
